@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": [
+    "import",
+    "prettier"
+  ],  
+  "extends": ["next/babel","next/core-web-vitals"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "jsx": "react",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "prettier/prettier": "error",
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "no-unused-vars": "warn"
+  }
+}

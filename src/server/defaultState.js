@@ -13,25 +13,23 @@ export const defaultState = {
       active: true,
       homeStore: '',
       dateJoined: '2021-12-10',
-      blackListReasons:[],
       session:{
         lastDateTimeAccessed: '2022-03-20',
         lastModuleAccessed: ''
       }
     },
     {
-      username: 'sales1',
-      firstName: 'Sales',
+      username: 'Tristan',
+      firstName: 'Perera',
       lastName: 'Person - 1',
       contactNumber: '94711326774',
-      emailAddress: 'bprematillake@gmail.com',
-      roleId: '3',
-      passwordHash: md5('Hop**123'),
+      emailAddress: 'tristan@endlinesolutions.com',
+      roleId: '',
+      passwordHash: md5('123'),
       resetPassword: true,
       active: true,
       homeStore: '',
-      dateJoined: '2021-12-10',
-      blackListReasons:[],
+      dateJoined: '2015-12-10',
       session:{
         lastDateTimeAccessed: '2022-03-20',
         lastModuleAccessed: ''
@@ -49,7 +47,6 @@ export const defaultState = {
       active: true,
       homeStore: '',
       dateJoined: '2021-12-10',
-      blackListReasons:[],
       session:{
         lastDateTimeAccessed: '2022-03-20',
         lastModuleAccessed: ''

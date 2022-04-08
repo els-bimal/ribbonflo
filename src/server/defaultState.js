@@ -20,8 +20,8 @@ export const defaultState = {
     },
     {
       username: 'Tristan',
-      firstName: 'Perera',
-      lastName: 'Person - 1',
+      firstName: 'Tristan',
+      lastName: 'Perera',
       contactNumber: '94711326774',
       emailAddress: 'tristan@endlinesolutions.com',
       roleId: '',
